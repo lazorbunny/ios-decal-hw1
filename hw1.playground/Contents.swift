@@ -92,9 +92,10 @@ class Words {
 //: ### What else is wrong with this function? You may have to refer to (but **not**
 //: ### change) the code at the very bottom. Debug the function.
 
-u
 //: ### countLetters is never initialized before it is called in Line Y, so in Line X
 //: ### I changed it to initialize to an empty dictionary.
+//: ### isAnagram() is not a type method as it is called by an instance of the Word class, so removed 
+//: ### the "class" in front of the method header.
 //: ### The function erroneously returns nil instead of true, so changed to return true.
     
 }
