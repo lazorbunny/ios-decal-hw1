@@ -45,7 +45,8 @@ class Words {
 
 //: ### Ain't nothing wrong with that for loop. arePalindromes are used as type methods, 
 //: ### since they are called on by the type itself and not an instance, and so the function
-//: ### header needs to be preceeded by "class" to be recognized as such.
+//: ### header needs to be preceeded by "class" to be recognized as such. Also returned true
+//: ### at the end so the function works properly.
 
 
 //: ## Q3: More Functions and Object Initialization
